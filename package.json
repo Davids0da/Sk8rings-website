@@ -1,0 +1,26 @@
+{
+  "name": "sk8rings",
+  "version": "1.0.0",
+  "description": "Sk8rings | Recycled skateboard decks",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Davids0da/Sk8rings-website" 
+  },
+  "author": "David Milosavljevic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davids0da/Sk8rings-website"
+  },
+  "homepage": "https://github.com/Davids0da/Sk8rings-website",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "express": "4.15.2",
+    "jquery": "3.1.1"
+  },
+  "devDependencies": {}
+}

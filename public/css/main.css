@@ -1,0 +1,209 @@
+/* 
+color blue: #004060
+color orange: #FF4804
+color lightblue: #0AC3EA
+color green: #71B852
+color light brown: #DCA773
+color dark blue: #0F1E3A
+
+*/
+.full-height{
+    height: 80vh;
+}
+.half-height{
+    height: 40vh;
+}
+
+body {
+     font-family: 'Source Sans Pro';
+}
+.logo {
+    width: 150px;
+    height: 150px;
+}
+.header {
+    margin-top: 30px;
+}
+.navbar {
+    margin-top: 100px;
+    font-size: 18px;
+    color: #004060;
+    font-weight: 350;
+}
+a:hover {
+    color:#0AC3EA;
+}
+.navbar>li:hover {
+    cursor: pointer;
+}
+.navbar>li {
+    padding-right: 18px;
+    padding-left: 18px;
+}
+.navbarshopnow {
+    border: 1px solid #004060;
+    border-radius: 10px;
+    color: #004060;
+}
+
+.title {
+    color: #FF4804;
+    font-size: 60px;
+    font-weight: 200;
+    margin-top: 50px;
+}
+
+.subtitle {
+    font-weight: 300;
+    color: #004060;
+}
+
+.undertitle {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.box1 {
+    background-color: #004060;
+    background-size: cover;
+    background-size: 100% 100%;
+     -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);    
+    overflow: visible;
+}
+#photo1 { 
+
+}
+
+
+.box2 {
+    margin-top: -20px;
+    background-color: #FF4804;
+    background-size: cover;
+    background-size: 100% 100%;
+     -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+    clip-path: polygon(0 0%, 100% 20%, 100% 100%, 0 80%);
+}
+
+.box3 {
+    margin-top: -20px;
+    background-color: #0AC3EA;
+    background-size: cover;
+    background-size: 100% 100%;
+     -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    
+}
+.box4 {
+    margin-top: -20px;
+    background-color: #71B852;
+    background-size: cover;
+    background-size: 100% 100%;
+     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0%, 100% 20%, 100% 100%, 0 80%);
+}
+
+.gallery { 
+      margin-top: 40px;
+    background-color: #DCA773;
+    background-size: cover;
+    background-size: 100% 100%;
+     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 80%);
+}
+
+.visitstore-contactus { 
+    color: #FF4804;
+    border: 1px solid #FF4804;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+a {
+    text-decoration: none !important;
+    color: #004060;
+}
+.about {
+     background-color: #0F1E3A;
+}
+
+.footer-text { 
+    color: white;
+    margin-top: 30px;
+    font-weight: 300;
+    line-height: 120%;
+}
+
+.footer-logo {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.box-text-title {
+    margin-top: 170px;
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.box-text-subtitle {
+    margin-top: 40px;
+     color: white;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.buy-now-box { 
+    margin-top: 45px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px;
+    font-weight: 200;
+    width: 200px;
+    float: left;
+}
+
+.buy-now-box-rightside { 
+    margin-top: 45px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px;
+    font-weight: 200;
+    width: 200px;
+    float: right;
+}
+
+.shop-show-text { 
+    color: white;
+    margin-top: 130px;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.shop-margin {
+    margin-top: 60px;
+}
+
+.shop-item-text { 
+     color: white;
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.shop-price {
+    color: white;
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#kita {
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
