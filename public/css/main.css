@@ -728,7 +728,8 @@ text-align: center;
 	clip-path: url("#swipe__clip-path3");
 
 } 
-
-.not-visible {
-    margin-top: -300px;
+svg {
+    opacity: 0;
+    margin-top: -250px;
+    height: 1px;
 }
