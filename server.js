@@ -16,7 +16,7 @@ app.use('/fonts/', express.static(path.join(__dirname, '/node_modules/bootstrap/
 
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.sendFile(path.join(__dirname + '/views/index.html'));
 });
 
 app.post('/contact', function (req, res) {
@@ -29,14 +29,14 @@ app.post('/contact', function (req, res) {
           pass: 'davidsodadavidsoda12345'
         }
   });
-
-  mailOpts = {
+    mailOpts = {
     to: 'sodakolor@gmail.com',
     subject: 'Sk8rings Website Customers',
     text: `${req.body.name}\n\n <${req.body.email}>\n\n${req.body.text}`
   };
   smtpTrans.sendMail(mailOpts);
   
+res.sendFile(path.join(__dirname + '/views/contact.html'));
 });
 
 app.listen(3000, function () {

@@ -671,3 +671,31 @@ input[type=text], input[type=email],#text {
 input[type=text], input[type=email] {
 text-align: center;
 }
+
+.thank-you-box { 
+    margin-top: 45px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px;
+    font-weight: 200;
+      -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    width: 300px;
+    float: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.thank-you-box:hover {
+    width: 350px;   
+}
+.thank-box {
+    margin-top: 300px;
+ color: white;
+ font-weight: 200;
+}
+.contact-background {
+    background-color: #3B6BB0;
+}
