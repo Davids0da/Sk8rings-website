@@ -339,6 +339,7 @@ header h1 {
   -moz-osx-font-smoothing: grayscale;
 }
 @media only screen and (min-width: 768px) {
+    
   header {
     height: 240px;
     line-height: 240px;
@@ -609,7 +610,7 @@ margin-left: 50px;
     width: 70px;
     height: 70px;
 }
-.text-right {
+.right-margin-text-box  {
     float: right;
     margin-right: 50px;
 }
