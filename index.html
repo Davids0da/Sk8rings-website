@@ -13,16 +13,19 @@
 <body>
     <div class="container">
         <div id="header" class="row header">
-            <div class="header-logo col-md-6 col-sm-12">
+            <div class="header-logo col-md-4 col-sm-12">
                 <img class="logo" src="images/logo.png">
             </div>
-            <div class="col-md-6 col-sm-12 text-right">
+            <div class="col-md-8 col-sm-12 text-right">
                 <ul class="list-inline navbar">
                     <li>
                         <a href="#about"> ABOUT </a>
                     </li>
                     <li>
                         <a href="#feautures">  FEAUTURES </a>
+                    </li>
+                    <li>
+                        <a href="#contact-us">  CONTACT US </a>
                     </li>
                     <li>
                         <a href="#gallery">  GALLERY </a>
@@ -68,7 +71,7 @@
         <div id="feautures" class="row">
             <div class="box1 full-height">
             </div>
-            <div class="col-md-5 col-md-offset-1">
+            <div class="left-margin-text-box col-md-5 col-md-offset-1">
                 <h3 class="box-text-title1 text-left"> Sunglasses just for you! </h3>
                 <h5 class="box-text-subtitle"> When the sun is shining too brightly,<br> custom sunglasses will keep your eyes in the shade. <br>Each pair
                     is made especially for you.<br> Enjoy a walk on the beach,<br> a hike with beautiful views or
@@ -104,7 +107,7 @@
             <div class="box3 full-height">
             </div>
             <img id="guitar" src="images/guitar.png" alt="guitar">
-            <div class="col-md-5 col-md-offset-1">
+            <div class="left-margin-text-box col-md-5 col-md-offset-1">
                 <h3 class="box-text-title3 text-left"> Old scateboards <br> make music now! </h3>
                 <h5 class="box-text-subtitle"> When the sun is shining too brightly,<br> custom sunglasses will keep your eyes in the shade. <br>Each pair
                     is made especially for you.<br> Enjoy a walk on the beach,<br> a hike with beautiful views or
@@ -118,7 +121,7 @@
 
         <div class="row  box4 full-height">
             <div class="col-md-12 text-center">
-                <h3 class="shop-and-contact-show-text"> And so much more we can offer: </h3>
+                <h3 class="shop-and-contact-show-text"> And so much more we can offer </h3>
             </div>
             <div class="shop-margin text-center col-md-2  col-sm-4 col-md-offset-1">
                 <img class="guitar-part" src="images/guitarpart.png">
@@ -194,33 +197,32 @@
                 </ul>
             </div>
         </div>
-        <div class="row contact-us full-height">
-            <div class="col-md-12 text-center">
-                <h3 class="shop-and-contact-show-text contact-us-text"> Contact us: </h3>
-            </div>
-            <div class="name-box text-center col-md-8 col-md-offset-2">
-                <h4 class="contact-us-title-text"> Name </h4>
-                <input class="input-name-email" type="text" name="Name">
-            </div>
-            <div class=" text-center  col-md-8 col-md-offset-2">
-                <h4 class="contact-us-title-text"> Email </h4>
-                <input class="input-name-email" type="text" name="Email">
-            </div>
-            <div class="text-center  col-md-8 col-md-offset-2">
-                <h4 class="contact-us-title-text"> Message </h4>
-                <input class="input-message" type="text" name="Message">
-            </div>
-            <div class="col-md-8 text-center col-md-offset-2">
-                <h4 class="send-message-box text-center"> Send Message! </h4>
+        <div id="contact-us" class="row contact-us full-height">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <h3 class="shop-and-contact-show-text contact-us-text"> Contact us </h3>
+                <form action="/contact" method="POST" name="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Message</label>
+                        <textarea name="text" class="form-control" rows="4" id="text" required></textarea>
+                    </div>
+                
+                    <button type="submit" id="button" class="btn">Send Message!</button>
+                </form>
             </div>
         </div>
-
-    </div>
     </div>
 
     <div class="container">
         <div class="row half-height-top text-center ">
-            <div class="col-md-6 col-md-offset-3 ">
+            <div class="col-md-12 text-center">
                 <a target="_blank" href="https://www.etsy.com/shop/SK8RINGS">
                     <h3 class="visitstore"> Visit Store </h3>
                 </a>
@@ -253,7 +255,7 @@
     <script src="/js/jquery.min.js "></script>
     <script src="/js/bootstrap.min.js "></script>
     <script src="scripts/main.js "></script>
-
+   
 
 
 </body>

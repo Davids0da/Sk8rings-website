@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Davids0da/Sk8rings-website" 
+    "url": "https://github.com/Davids0da/Sk8rings-website"
   },
   "author": "David Milosavljevic",
   "license": "ISC",
@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/Davids0da/Sk8rings-website",
   "dependencies": {
+    "body-parser": "^1.8.1",
     "bootstrap": "3.3.7",
     "express": "4.15.2",
-    "jquery": "3.1.1"
+    "jquery": "3.1.1",
+    "nodemailer": "3.1.5",
+    "xoauth2": "^1.2.0"
   },
   "devDependencies": {}
 }
