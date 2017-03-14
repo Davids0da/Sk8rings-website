@@ -35,12 +35,12 @@ app.post('/contact', function (req, res) {
     text: `${req.body.name}\n\n <${req.body.email}>\n\n${req.body.text}`
   };
   smtpTrans.sendMail(mailOpts);
-  
+
 res.sendFile(path.join(__dirname + '/views/contact.html'));
 });
-
-app.listen(3000, function () {
-  console.log('Listening on port 3000!')
+var port = process.env.PORT || 5000
+app.listen(port, function () {
+  console.log('Listening on port ' + port + '!')
 });
 
 
