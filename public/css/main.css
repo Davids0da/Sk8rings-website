@@ -119,12 +119,16 @@ a:hover {
 }
 
 .gallery { 
-      margin-top: 40px;
+    margin-top: -20px;
     background-color: #DCA773;
     background-size: cover;
     background-size: 100% 100%;
      -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 80%);
+      overflow: visible;
+    position: absolute;
+    left: 0;
+    right: 0; 
     
 }
 
@@ -268,7 +272,7 @@ a {
     overflow-y: visible;
 }
 
-#feautures,#feautures2,#feautures3{ 
+#feautures,#feautures2,#feautures3,#gallery{ 
     position: relative;
 }
 
@@ -295,9 +299,7 @@ a {
     margin-top: 30px;
 }
 
-#slider {
-    margin-top: 60px;
-}
+
 .hide-bullets {
     list-style:none;
     margin-left: -40px;
@@ -307,11 +309,7 @@ a {
     padding: 0;
 }
 .carousel {
-  width: 1200px;
-  height: 585px;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 40px;
   left: 0;
   right: 0;
 }
@@ -577,13 +575,13 @@ header h1 {
 
 .carousel {
     margin-top: 75px;
-  width: 900px;
-  height: 425px;
 }
 
 }
 @media screen and (max-width: 992px) {
-
+#slider{
+    margin-top: -35px;
+}
 .left-margin-text-box {
 margin-left: 50px;
 }
@@ -624,7 +622,7 @@ margin-left: 50px;
 }
 
 .contact-us { 
-    margin-top: 40px;
+    margin-top: 70px;
     background-color: #3B6BB0;
     background-size: cover;
     background-size: 100% 100%;
@@ -732,4 +730,8 @@ svg {
     opacity: 0;
     margin-top: -250px;
     height: 1px;
+}
+
+#slider-thumbs {
+    margin-top: 80px;
 }
