@@ -69,7 +69,7 @@
 
     <div class="margin-top-container container-fluid">
         <div id="feautures" class="row">
-            <div class="box1 full-height">
+            <div class="box1 full-height clip-this">
             </div>
             <div class="left-margin-text-box col-md-5 col-md-offset-1">
                 <h3 class="box-text-title1 text-left"> Sunglasses just for you! </h3>
@@ -87,7 +87,7 @@
         </div>
 
         <div id="feautures2" class="row">
-            <div class="box2 full-height">
+            <div class="box2 clip-this1 full-height">
             </div>
             <div class="col-sm-5 text-left">
                 <img id="glasses2" src="images/glasses2.png" alt="glasses">
@@ -104,7 +104,7 @@
         </div>
 
         <div id="feautures2" class="row">
-            <div class="box3 full-height">
+            <div class="box3 clip-this full-height">
             </div>
             <img id="guitar" src="images/guitar.png" alt="guitar">
             <div class="left-margin-text-box col-md-5 col-md-offset-1">
@@ -118,7 +118,7 @@
 
         </div>
 
-        <div class="row  box4 full-height">
+        <div class="row  clip-this1 box4 full-height">
             <div class="col-md-12 text-center">
                 <h3 class="shop-and-contact-show-text"> And so much more we can offer </h3>
             </div>
@@ -152,7 +152,7 @@
             </div>
         </div>
         <div id="gallery" class="row">
-            <div class="gallery full-height">
+            <div class="gallery clip-this3 full-height">
                 <div id="slider" class="text-center col-md-10 col-md-offset-1">
                     <div id="carousel-bounding-box">
                         <div class="carousel slide" id="myCarousel">
@@ -376,7 +376,7 @@
                 </ul>
             </div>
         </div>
-        <div id="contact-us" class="row contact-us full-height">
+        <div id="contact-us" class="row clip-this4 contact-us full-height">
             <div class="col-md-6 col-md-offset-3 text-center">
                 <h3 class="shop-and-contact-show-text contact-us-text"> Contact us </h3>
                 <form action="/contact" method="POST" name="contactForm">
@@ -433,9 +433,37 @@
     <script src="/js/jquery.min.js "></script>
     <script src="/js/bootstrap.min.js "></script>
     <script src="scripts/main.js "></script>
+    <div class "not-visible">
+        <svg class="clip-svg">
+            <defs>
+                <clipPath id="swipe__clip-path" clipPathUnits="objectBoundingBox">
+                    <polygon points="0 0.2, 1 0, 1 0.8, 0 1" />
+                </clipPath>
+            </defs>
+        </svg>
+        <svg class="clip-svg1">
+            <defs>
+                <clipPath id="swipe__clip-path1" clipPathUnits="objectBoundingBox">
+                    <polygon points="0 0, 1 0.2, 1 1, 0 0.8" />
+                </clipPath>
+            </defs>
+        </svg>
+        <svg class="clip-svg2">
+            <defs>
+                <clipPath id="swipe__clip-path2" clipPathUnits="objectBoundingBox">
+                    <polygon points="0 0.2, 1 0, 1 1, 0 0.8" />
 
-
-
+                </clipPath>
+            </defs>
+        </svg>
+        <svg class="clip-svg3">
+            <defs>
+                <clipPath id="swipe__clip-path3" clipPathUnits="objectBoundingBox">
+                    <polygon points="0 0, 1 0.2, 1 0.8, 0 1" />
+                </clipPath>
+            </defs>
+        </svg>
+    </div>
 </body>
 
 </html>

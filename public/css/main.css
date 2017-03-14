@@ -72,8 +72,8 @@ a:hover {
     background-color: #004060;
     background-size: cover;
     background-size: 100% 100%;
-     -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);    
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%); 
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
     overflow: visible;
     position: absolute;
     left: 0;
@@ -702,4 +702,33 @@ text-align: center;
 }
 .contact-background {
     background-color: #3B6BB0;
+}
+
+
+
+
+ .clip-this {
+	clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+	clip-path: url("#swipe__clip-path");
+ }
+
+  .clip-this1 {
+	clip-path: polygon(0 0%, 100% 20%, 100% 100%, 0 80%);
+	clip-path: url("#swipe__clip-path1");
+
+} 
+
+ .clip-this3 {
+	clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 80%);
+	clip-path: url("#swipe__clip-path2");
+
+} 
+.clip-this4 {
+	clip-path: polygon(0 0%, 100% 20%, 100% 80%, 0 100%);
+	clip-path: url("#swipe__clip-path3");
+
+} 
+
+.not-visible {
+    margin-top: -300px;
 }
