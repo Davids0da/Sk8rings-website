@@ -129,14 +129,14 @@ a:hover {
 }
 
 .visitstore { 
-    color: #005658;
-    border: 1px solid #005658;
+    color: white;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 20px;
     font-weight: 200;
    width: 300px;
    margin: auto;
-   margin-top: 70px;
+   margin-top: 160px;
      -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -151,12 +151,16 @@ a {
     color: #004060;
 }
 .about {
-     background-color: #005658;
+     background-color: #004060;
+     height:600px;
+         -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
+    margin-top: -140px;
 }
 
 .footer-text { 
     color: white;
-    margin-top: 30px;
+    margin-top: 60px;
     font-weight: 300;
     line-height: 120%;
 }
@@ -237,7 +241,7 @@ a {
     font-size: 40px;
 }
 .contact-us-text {
-    margin-top: 100px;
+    margin-top: 90px;
     font-weight: 200;
 }
 
@@ -339,7 +343,6 @@ header h1 {
   -moz-osx-font-smoothing: grayscale;
 }
 @media only screen and (min-width: 768px) {
-    
   header {
     height: 240px;
     line-height: 240px;
@@ -594,9 +597,10 @@ margin-left: 50px;
     width: 120%;
     height: 120%;
 }
-#about {
-    margin-top: 150px;
-        
+.logo {
+    position: absolute;
+  left: 50%;
+   margin-left: -75px;
 }
 
 .cd-handle, .guitar-part2  {
@@ -615,7 +619,8 @@ margin-left: 50px;
     margin-right: 50px;
 }
 .navbar {
-    margin-top: -20px;
+    margin-top: 200px;
+    text-align: center;
 }
 }
 
