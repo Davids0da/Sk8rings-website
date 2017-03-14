@@ -4,8 +4,9 @@ var path = require('path');
 var nodemailer = require('nodemailer');
 var index = require('./routes/index');
 var bodyParser = require("body-parser");
-var xoauth2 = require("xoauth2");
+var compression = require('compression');
 
+app.use(compression());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
