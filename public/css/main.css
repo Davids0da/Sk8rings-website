@@ -110,7 +110,7 @@ a:hover {
     right: 0; 
 }
 .box4 {
-    margin-top: 105px;
+    margin-top: 140px;
     background-color: #71B852;
     background-size: cover;
     background-size: 100% 100%;
@@ -278,7 +278,7 @@ a {
 #guitar {
     position: absolute;
     left: 60%;
-    bottom: -140px;
+    bottom: -190px;
     width: 335px;
 }
 
