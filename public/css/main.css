@@ -7,6 +7,13 @@ color light brown: #DCA773
 color dark blue: #0F1E3A
 
 */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Light.otf.woff') format('woff');
+}
+
+
+
 .full-height{
     height: 700px;
 }
@@ -19,7 +26,7 @@ color dark blue: #0F1E3A
 
 
 body {
-     font-family: 'Source Sans Pro';
+     font-family: 'SourceSansPro';
      background-color: white;
 }
 .logo {
