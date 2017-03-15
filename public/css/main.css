@@ -798,3 +798,15 @@ svg {
     margin-top: 50px;
     color: white;
 }
+
+@media screen and (max-width: 1250px) {
+  .box-header  {
+      margin-top: 440px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .box-header  {
+      margin-top: 600px;
+  }
+}
