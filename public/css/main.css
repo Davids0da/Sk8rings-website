@@ -162,7 +162,7 @@ a:hover {
     font-weight: 200;
    width: 300px;
    margin: auto;
-   margin-top: 160px;
+   margin-top: 80px;
      -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -178,7 +178,7 @@ a {
 }
 .about {
      background-color: #004060;
-     height:600px;
+     height:500px;
          -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
     margin-top: -140px;
@@ -210,12 +210,17 @@ a {
     font-size: 40px;
 }
 .box-text-title3 {
-    margin-top: 270px;
+    margin-top: 300px;
     color: white;
     font-weight: 200;
     font-size: 40px;
 }
-
+.box-text-title4 {
+    margin-top: 190px;
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+}
 .box-text-subtitle {
     margin-top: 40px;
      color: white;
@@ -654,7 +659,7 @@ margin-left: 50px;
 }
 
 .contact-us { 
-    margin-top: -70px;
+    margin-top: -10px;
     background-color: #3B6BB0;
     background-size: cover;
     background-size: 100% 100%;
@@ -784,9 +789,6 @@ svg {
     right: 0; 
 }
 
-.margin-of-workshop-carousel {
-    margin-top: 77px;
-}
 
 .workshop-text1 {
     color: white;
@@ -804,11 +806,21 @@ svg {
      margin-top: 0;
  }
   .box-text-title1 {
-     margin-top: 140px;
+     margin-top: 200px;
  }
+ .box-text-title4 {
+     margin-top: 150px;
+ }
+ 
 }
 
 @media screen and (max-width: 990px) {
+    .box-text-title4 {
+     margin-top: 20px;
+ }
+    #photo1 { 
+        margin-top: 20px;
+    }
   .box-header  {
       margin-top: 600px;
   }
@@ -822,3 +834,13 @@ svg {
 .left-margin-text-box-workshop {
     margin-left: 70px;
     margin-top: -100px;
+}
+.workshop-carousel {
+ margin-top: 60px;
+ float:center;
+}
+
+.worksho-text-wrap { 
+    margin-top: 1px;
+}
+
