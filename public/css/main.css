@@ -5,14 +5,12 @@ color lightblue: #0AC3EA
 color green: #71B852
 color light brown: #DCA773
 color dark blue: #0F1E3A
-
 */
+
 @font-face {
   font-family: 'SourceSansPro';
   src: url('../fonts/SourceSansPro-Light.otf.woff') format('woff');
 }
-
-
 
 .full-height{
     height: 700px;
@@ -198,7 +196,7 @@ a {
 }
 
 .box-text-title1 {
-    margin-top: 190px;
+    margin-top: 200px;
     color: white;
     font-weight: 200;
     font-size: 40px;
@@ -267,7 +265,7 @@ a {
 
 .shop-and-contact-show-text { 
     color: white;
-    margin-top: 150px;
+    margin-top: 170px;
     font-weight: 200;
     font-size: 40px;
 }
@@ -305,9 +303,9 @@ a {
 
 #glasses2 { 
     margin-top: 300px;
-    margin-left: 20px;
-    width: 140%;
-    height: 140%;
+    margin-left: 90px;
+    width: 120%;
+    height: 120%;
     -ms-transform: rotate(3deg); /* IE 9 */
     -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
     transform: rotate(3deg);
@@ -345,8 +343,6 @@ a {
 }
 .carousel {
   margin-top: 40px;
-  left: 0;
-  right: 0;
 }
 .carousel-inner {
   height: 100%;
@@ -357,6 +353,8 @@ a {
   background-position: 50% 50%;
   width: 100%;
   height: 100%;
+    text-align: center;
+    width: auto;
 }
 
 /* Style for slider */ 
@@ -375,7 +373,7 @@ header h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   header {
     height: 240px;
     line-height: 240px;
@@ -543,6 +541,10 @@ header h1 {
     user-select: none;
 }
 
+#slider{
+    max-width: 1200px;
+}
+
 /* The actual popup */
 .popup .popuptext {
     visibility: hidden;
@@ -611,8 +613,8 @@ header h1 {
 .carousel {
     margin-top: 75px;
 }
-
 }
+
 @media screen and (max-width: 992px) {
    
 #slider{
@@ -811,12 +813,35 @@ svg {
  .box-text-title4 {
      margin-top: 150px;
  }
+
  
+}
+
+
+.left-margin-text-box-workshop {
+    margin-left: 150px;
+    margin-top: -100px;
+}
+.workshop-carousel {
+ margin-top: 60px;
+ float:center;
+}
+
+.worksho-text-wrap { 
+    margin-top: 30px;
+}
+
+
+@media only screen and (min-width: 1800px) {
+    .workshop-carousel{
+        margin-top: 25px;
+    }
+
 }
 
 @media screen and (max-width: 990px) {
     .box-text-title4 {
-     margin-top: 20px;
+     margin-top: 60px;
  }
     #photo1 { 
         margin-top: 20px;
@@ -829,18 +854,25 @@ svg {
   }
    .left-margin-text-box-workshop {
      bottom: -110px;
+      margin-left: 70px;
 }
-}
-.left-margin-text-box-workshop {
-    margin-left: 70px;
-    margin-top: -100px;
-}
-.workshop-carousel {
- margin-top: 60px;
- float:center;
 }
 
-.worksho-text-wrap { 
-    margin-top: 1px;
+
+@media only screen and (min-width: 1500px) {
+    .workshop-carousel{
+        margin-top: 40px; 
+    }
+    #glasses2 {
+        width: 100%;
+        height: 100%;
+        margin-left: 160px;
+    }
+    
+
 }
 
+#slider {
+    margin: auto;
+    float: none;
+}
