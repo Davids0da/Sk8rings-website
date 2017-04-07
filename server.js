@@ -32,7 +32,7 @@ app.post('/contact', function (req, res) {
         }
   });
     mailOpts = {
-    to: 'sodakolor@gmail.com',
+    to: 'acaskate@yahoo.com',
     subject: 'Sk8rings Website Customers',
     text: `${req.body.name}\n\n <${req.body.email}>\n\n${req.body.text}`
   };
