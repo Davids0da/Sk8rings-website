@@ -876,3 +876,12 @@ svg {
     margin: auto;
     float: none;
 }
+
+@media only screen and (max-width: 1230px) {
+ .box-header {
+     background: none;
+ }
+ .cd-image-container {
+     display: none;
+ }
+}
