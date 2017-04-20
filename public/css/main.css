@@ -90,7 +90,7 @@ a:hover {
 
 .box2 {
     margin-top: 100px;
-    background-color: #FF4804;
+    background-color: #FF4905;
     background-size: cover;
     background-size: 100% 100%;
     -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
@@ -504,7 +504,7 @@ header h1 {
   margin-left: -22px;
   margin-top: -22px;
   border-radius: 50%;
-  background: #FF4804  no-repeat center center;
+  background: #FF4905  no-repeat center center;
   cursor: move;
   box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);
   opacity: 0;
@@ -550,7 +550,7 @@ header h1 {
     visibility: hidden;
     width: 160px;
     background-color: white;
-    color: #FF4804;
+    color: #FF4905;
     text-align: center;
     border-radius: 3px;
     padding: 20px 0;
@@ -779,7 +779,7 @@ svg {
 .box-header {
     height: 400px;
     margin-top: 420px;
-    background-color: #FF4804;
+    background-color: #FF4905;
     background-size: cover;
     background-size: 100% 100%;
     -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
